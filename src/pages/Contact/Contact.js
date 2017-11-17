@@ -9,11 +9,11 @@ let Contact = (props)=>(
 <div className="col-md-2"></div>
   </div>
 <div className="row">
-{
+{/* {
   props.data.map((item, index)=>(
-    
+
   ))
-}
+} */}
 </div>
 </div>
 )
