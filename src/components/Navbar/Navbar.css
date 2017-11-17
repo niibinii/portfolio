@@ -1,0 +1,58 @@
+.navbar {
+  background-color: rgba(121, 206, 220, 0.8);
+  margin-top: -250px;
+}
+
+.navbar a {
+  color: white !important;
+  padding-left: 10px;
+}
+
+.navbar-toggler {
+  background-color: white;
+}
+
+h6 {
+  color: white;
+}
+
+.brand {
+  height: 150px;
+  width: 150px;
+  background-color: white;
+  background-image: url("/images/marcus-5.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.about-me p {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 3px;
+}
+
+.about-me h6 {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.about-me {
+  width: 350px;
+  height: 230px;
+  border-radius: 5px;
+  margin: 4px auto 0 auto;
+  background-color: rgba(213, 164, 88, 0.7);
+  padding: 20px;
+}
+
+.btn {
+  margin: 20px 5px 5px 17px;
+}
+
+.about-me .btn:nth-of-type(1) {
+  background-color: red;
+}
