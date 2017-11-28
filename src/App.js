@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 //pages
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
+import Portfolio from "./pages/Portfolio";
 
 let navLinks = [
   {
@@ -18,14 +19,14 @@ let navLinks = [
     name: "Contact",
     url: "/contact"
   }, {
-    name: "Portfolio",
-    url: "/portfolio"
+    name: "Github",
+    url: "https://github.com/niibinii"
   }
 ];
-
-let Portfolio = () => (
-  <p>Portfolio</p>
-);
+////dummy pages
+// let Portfolio = () => (
+//   <p>Portfolio</p>
+// );
 
 class App extends React.Component {
   render() {
@@ -38,7 +39,6 @@ class App extends React.Component {
             <Switch>
               <Route exact path="/" component={Home}/>
               <Route exact path="/contact" component={Contact}/>
-              <Route exact path="/portfolio" component={Portfolio}/>
             </Switch>
           </div>
         </HashRouter>

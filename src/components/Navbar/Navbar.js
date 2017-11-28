@@ -18,11 +18,22 @@ let NavbarN = (props) => (
       <div className="brand"></div>
       <div className="about-me">
         <h6>About</h6>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+        <p> Marcus Olan is a humble, hardworking guy from Ghana. My passions are innumerable but
+          to mention a few: coding, working math, teaching, sports and more... I love helping the poor and needy. Want to find out more interesting things about me? Contact me.
         </p>
-        {props.navLinks.map((item, index) => (
-          <Link className="btn btn-info" key={item.name + index} to={item.url}>{item.name}</Link>
-        ))}
+        <div className="my-btn-group">
+          {
+            props.navLinks.map((item, index) => {
+                if(item.url.indexOf("http") === -1) {
+                  return (<Link className="btn btn-info" key={item.name + index} to={item.url}>{item.name}</Link>)
+                } else {
+                  return (<a className="btn btn-info" key={item.name + index} href={item.url}>{item.name}</a>)
+                }
+              }
+            )
+        }
+        </div>
+
       </div>
       <NavbarToggler onClick={props.toggle}/>
       <Collapse navbar isOpen={props.isOpen}>

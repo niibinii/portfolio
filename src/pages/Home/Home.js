@@ -1,19 +1,17 @@
 import React from "react";
 import "./Home.css";
-import Skills from "../../components/Skills";
+import Skills1 from "../../components/Skills1";
 import Education from "../../components/Education";
 import Footer from "../../components/Footer";
 
 let Home = () => (
   <div className="container-fluid home">
-    <div className="row">
-      <div className="col-md-4">
-        <Skills/>
-      </div>
-      <div className="col-md-8">
-        <Education/>
-      </div>
-</div>
+  
+      <Education />
+
+  <div className="row">
+        <Skills1/>
+  </div>
 </div>
 )
 

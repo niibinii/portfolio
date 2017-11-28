@@ -1,9 +1,7 @@
 .education {
   margin-top: 25px;
 }
-.degree-name{
-  font-weight: bold;
-  font-size: 20px;
+.degree-name, .school-name, .date-name , .degree{
   padding: 0;
 }
 .school-name {
@@ -11,4 +9,26 @@ font-weight: bold;
 font-size: 15px;
 padding: 0;
 margin-top: -6px;
+}
+
+.educ h3 {
+  text-align: left;
+  font-size: 30px;
+  font-family: cursive;
+  padding: 40px 0 0 0;
+  color: blue;
+}
+.degree-name p, .school-name p, .date-name p {
+  text-align: left;
+}
+
+h5 {
+  padding-bottom:5px;
+  font-weight: bold;
+}
+.institution {
+
+}
+.qual {
+  text-align: justify !important;
 }

@@ -3,17 +3,29 @@ import Skills from "./Skills.js";
 
 let mySkills = [
   {
-    name: "baseball",
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/Baseball_%28crop%29.jpg/1200px-Baseball_%28crop%29.jpg"
+    name: "javascript",
+    image: "https://www.vectorlogo.zone/logos/javascript/javascript-card.png"
 
   },
   {
-    name: "baseball",
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/Baseball_%28crop%29.jpg/1200px-Baseball_%28crop%29.jpg"
+    name: "html",
+    image: "https://lh3.googleusercontent.com/zwwddqxgFlP14DlucvBV52RUMA-cV3vRvmjf-iWqxuVhYVmB-l8XN9NDirb0687DSw=w300"
   },
   {
-    name: "baseball",
-    image: "https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/Baseball_%28crop%29.jpg/1200px-Baseball_%28crop%29.jpg"
+    name: "mocha and chai",
+    image: "https://cdn-images-1.medium.com/max/933/1*CrB6isZN6YXeM1rWmnjxHw.png"
+  },
+  {
+    name: "comptia network+",
+    image: "http://internetworkpath.com/images/Network.jpg"
+  },
+  {
+    name: "express js",
+    image: "http://codecondo.com/wp-content/uploads/2015/07/15-Websites-built-with-Express_785.png"
+  },
+  {
+    name: "wordpress",
+    image: "https://cms-assets.tutsplus.com/uploads/users/34/posts/26829/preview_image/wordpress-logo.jpg"
   }
 ]
 

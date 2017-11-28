@@ -1,0 +1,22 @@
+/*p {
+  padding-top: 0;
+  margin-top: -15px;
+  text-align: center;
+}*/
+.title {
+  margin: 50px;
+  text-align: center;
+}
+.fa {
+  font-size: 50px;
+  color: #012172;
+
+}
+.contact-info {
+  color: #012172;
+  display: block;
+  margin: 10px;
+}
+.contact-info i, p {
+  display: inline;
+}

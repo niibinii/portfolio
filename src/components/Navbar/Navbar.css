@@ -1,6 +1,7 @@
 .navbar {
-  background-color: rgba(121, 206, 220, 0.8);
-  margin-top: -250px;
+  background-image: url("https://static.pexels.com/photos/157039/pexels-photo-157039.jpeg");
+  background-size: cover;
+  background-position: center;
 }
 
 .navbar a {
@@ -27,25 +28,31 @@ h6 {
   border-radius: 50%;
 }
 
+.about-me {
+  margin: auto;
+}
+
 .about-me p {
   color: white;
   font-size: 14px;
   text-align: center;
-  padding-top: 3px;
+  margin-top: 7px;
 }
 
 .about-me h6 {
   font-size: 20px;
   text-align: center;
   padding-top: 20px;
+  font-family: comit san ms;
+  font-weight: bold;
 }
 
 .about-me {
-  width: 350px;
-  height: 230px;
-  border-radius: 5px;
+  max-width: 350px;
+  min-height: 230px;
+  border-radius: 50px;
   margin: 4px auto 0 auto;
-  background-color: rgba(213, 164, 88, 0.7);
+  background-color: rgba(4, 134, 219, 0.4);
   padding: 20px;
 }
 
@@ -55,4 +62,35 @@ h6 {
 
 .about-me .btn:nth-of-type(1) {
   background-color: red;
+  border-radius: 10px 5px;
+  border-left: 3px solid #1F1641;
+}
+
+.about-me .btn:nth-of-type(2) {
+  background-color: #1F1641;
+  border-radius: 10px 5px;
+  border-top: 1px solid red;
+}
+
+.about-me .btn:nth-of-type(3) {
+  background-color: blue;
+  border-radius: 10px 5px;
+  border-right: 3px solid #1F1641;
+}
+
+.my-btn-group {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .brand {
+      margin: auto;
+  }
+  .navbar-toggler {
+    margin: auto !important;
+  }
+  .about-me {
+    margin: 30px auto;
+    max-width: 100%;
+  }
 }
