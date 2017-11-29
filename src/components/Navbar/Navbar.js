@@ -38,11 +38,24 @@ let NavbarN = (props) => (
       <NavbarToggler onClick={props.toggle}/>
       <Collapse navbar isOpen={props.isOpen}>
         <Nav className="ml-auto" navbar>
-          {props.navLinks.map((item, index) => (
-            <NavItem key={item.name + index}>
-              <Link to={item.url}>{item.name}</Link>
-            </NavItem>
-          ))}
+          {
+            props.navLinks.map((item, index) => {
+                if(item.url.indexOf("http") === -1) {
+                  return (
+                    <NavItem key={item.name + index}>
+                      <Link to={item.url}>{item.name}</Link>
+                    </NavItem>
+                  )
+                } else {
+                  return (
+                    <NavItem key={item.name + index}>
+                      <a href={item.url}>{item.name}</a>
+                    </NavItem>
+                  )
+                }
+              }
+            )
+        }
         </Nav>
       </Collapse>
 
